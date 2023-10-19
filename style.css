@@ -1,0 +1,213 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.registro_curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.datos_curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(95, 160, 95, 0.408);
+    border: 2px solid rgb(18, 45, 21);
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.datos_curso input{
+    border-radius: 10px;
+}
+
+.encabezado_regis_curso{
+    background-color: rgba(143, 174, 113, 0.668);
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.titulitos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titu_principal{
+    background-color: rgb(85, 122, 85);
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+
+.titu_carrera{
+    background-color: rgb(140, 182, 133);
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.btn_guardar_curso{
+    width: 16%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    background-color: rgb(138, 212, 138);
+}
+
+.btn_guardar_curso:hover{
+    color: azure;
+    background-color: rgb(33, 75, 61);
+    border: 3px solid rgb(12, 45, 12);
+}
+
+
+.info_students{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.info_student{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.info_students a{
+    cursor: pointer;
+}
+
+.content_students{
+    width: 100%;
+}
+
+.texto_tp{
+    font-weight: bolder;
+    color: rgb(18, 45, 21); 
+}
+
+.encabezado_regis_curso_text{
+    font-weight: bold;
+    color: rgb(57, 70, 61);
+}
+
+.accordion-style{
+    background-color: rgba(131, 188, 131, 0.612) !important;
+    box-shadow: 0 0 5px #7db97da0 !important;
+}
+
+.accordion-style:focus, .accordion-style:active {
+    box-shadow: 0 0 5px #007200a0 !important;
+}
+
+.data_course{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.data_course p{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.button_course{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_info_s{
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.info_students p{
+    border: 2px solid black;
+    height: 100%;
+    padding: 5px;
+}
+
+.info_student div{
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.info_student p{
+    border: 2px solid black;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.info_student div p{
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    border: 0
+}
+
+.info_student button{
+    font-size: 12px;
+    width: 80%;
+}
+
+#modal_course{
+    width: 60vw;
+}
+
+#modal_course h3{
+    width: 100%;
+}
+
+#modal_course input{
+    width: 100%;
+}
+
+.content_info_s{
+    margin-top: 20px;
+}
+
+.modal_student{
+    text-align: center;
+}
+
+.modal_student input{
+    width: 100%;
+}
+
+.modal_student button{
+    margin: 10px;
+}
+
+footer{
+    margin-top: 10vh;
+    height: 10vh;
+    background-color: rgb(138, 212, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3{
+    font-weight: bolder;
+}
